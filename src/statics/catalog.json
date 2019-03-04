@@ -1,0 +1,8 @@
+[ 
+    { "id": 1, "name": "Epson tx135", "description": "impresora tx 135 andando mas o menos", "category": "Equipos de Computación", "location": "comedor" },
+    { "id": 2, "name": "Epson tx125", "description": "impresora tx 125 buen estado", "category": "Equipos de Computación", "location": "taller" },
+    { "id": 3, "name": "Pinza RJ45", "description": "Crimpeadora noga rj45", "category": "Herramientas de Computación", "location": "local" },
+    { "id": 4, "name": "Epson tx135", "description": "impresora tx 135 andando mas o menos", "category": "Equipos de Computación", "location": "comedor" },
+    { "id": 5, "name": "Epson tx125", "description": "impresora tx 125 buen estado", "category": "Equipos de Computación", "location": "taller" },
+    { "id": 6, "name": "Pinza RJ45", "description": "Crimpeadora noga rj45", "category": "Herramientas de Computación", "location": "local" }
+]
