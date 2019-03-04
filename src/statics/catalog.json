@@ -1,8 +1,10 @@
 [ 
-    { "id": 1, "name": "Epson tx135", "description": "impresora tx 135 andando mas o menos", "category": "Equipos de Computación", "location": "comedor" },
-    { "id": 2, "name": "Epson tx125", "description": "impresora tx 125 buen estado", "category": "Equipos de Computación", "location": "taller" },
-    { "id": 3, "name": "Pinza RJ45", "description": "Crimpeadora noga rj45", "category": "Herramientas de Computación", "location": "local" },
-    { "id": 4, "name": "Epson tx135", "description": "impresora tx 135 andando mas o menos", "category": "Equipos de Computación", "location": "comedor" },
-    { "id": 5, "name": "Epson tx125", "description": "impresora tx 125 buen estado", "category": "Equipos de Computación", "location": "taller" },
-    { "id": 6, "name": "Pinza RJ45", "description": "Crimpeadora noga rj45", "category": "Herramientas de Computación", "location": "local" }
+    { "id": 1, "name": "Epson tx135", "description": "impresora tx 135 andando mas o menos", "category": "Equipos de Computación", "location": "comedor", "img": "01.png" },
+    { "id": 2, "name": "Epson tx125", "description": "impresora tx 125 buen estado", "category": "Equipos de Computación", "location": "taller", "img": "02.jpg" },
+    { "id": 3, "name": "Pinza RJ45", "description": "Crimpeadora noga rj45", "category": "Herramientas de Computación", "location": "local", "img": "03.jpg" },
+    { "id": 4, "name": "Epson tx135", "description": "impresora tx 135 andando mas o menos", "category": "Equipos de Computación", "location": "comedor", "img": "" },
+    { "id": 5, "name": "Epson tx125", "description": "impresora tx 125 buen estado", "category": "Equipos de Computación", "location": "taller", "img": "" },
+    { "id": 6, "name": "Pinza RJ45", "description": "Crimpeadora noga rj45", "category": "Herramientas de Computación", "location": "local", "img": "03.jpg" },
+    { "id": 7, "name": "Atornillador Skill", "description": "Atorinallador skill 14,4v", "category": "Herramientas varias", "location": "taller", "img": "07.png" },
+    { "id": 8, "name": "Taladro Makita", "description": "Taladro s/percutor 13mm 220v", "category": "Herramientas varias", "location": "taller", "img": "08.jpg" }
 ]

@@ -72,11 +72,16 @@ module.exports = function (ctx) {
         'QCardTitle',
         'QCardSeparator',
         'QCardMain',
-        'QSearch'
+        'QCardMedia',
+        'QCardActions',
+        'QSearch',
+        'QPopover',
+        'QCollapsible'
       ],
       directives: [
         'Ripple',
-        'BackToTop'
+        'BackToTop',
+        'CloseOverlay'
       ],
       // Quasar plugins
       plugins: [
