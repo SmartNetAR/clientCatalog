@@ -3,9 +3,9 @@
     <q-layout-header>
       <q-toolbar
         color="primary"
-        :glossy="$q.theme === 'mat'"
-        :inverted="$q.theme === 'ios'"
       >
+        <!-- :glossy="$q.theme === 'mat'"
+        :inverted="$q.theme === 'ios'" -->
         <q-btn
           flat
           dense
@@ -18,10 +18,9 @@
 
         <q-toolbar-title>
           Catalogo App
-          <div slot="subtitle">Running on Quasar v{{ $q.version }}</div>
+          <div slot="subtitle">La aplicación que te permite encontrar</div>
         </q-toolbar-title>
       </q-toolbar>
-
       <q-tabs>
         <q-route-tab slot="title" icon="view_day" to="/" replace hide="icon" label="Inicio" />
         <q-route-tab slot="title" icon="view_quilt" to="/catalog" replace hide="icon" label="Catálogo" />

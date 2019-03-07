@@ -76,7 +76,13 @@ module.exports = function (ctx) {
         'QCardActions',
         'QSearch',
         'QPopover',
-        'QCollapsible'
+        'QCollapsible',
+        'QField',
+        'QInput',
+        'QChipsInput',
+        'QPageSticky',
+        'QAutocomplete',
+        'QUploader'
       ],
       directives: [
         'Ripple',
