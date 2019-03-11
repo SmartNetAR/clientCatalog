@@ -38,6 +38,14 @@
       >Agregar
     </q-btn>
     </div>
+    <div row justify-center>
+    <q-btn
+      color="primary"
+      style="margin: 20px 18px 18px 0"
+      @click="uploadFile"
+      >Upload Img
+    </q-btn>
+    </div>
   </div>
   </q-page>
 </template>
@@ -111,11 +119,11 @@ export default {
       this.$q.notify(`"${label}" already in list`)
     },
     sendObject () {
-      console.log('enviando...')
-      console.log(this.newObject)
       const response = this.$store.dispatch('newObject', this.newObject)
-      console.log('la respuesta es: ')
       console.log(response)
+    },
+    uploadFile () {
+      this.$store.dispatch('uploadImage', 'hello')
     }
     // uploadFile: function (file, updateProgress) {
     //   const postUrl = 'http://localhost:8000/api/objects'

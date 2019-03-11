@@ -12,7 +12,7 @@
   <q-card inline class="bigger q-ma-sm"
     v-for="item of catalog" :key="item.id">
     <q-card-media overlay-position="top">
-      <img v-if="item.img"
+      <img v-if="item.img_url"
         v-bind:src="'assets/catalog/' + item.img" onerror="src='statics/default_photo.png'">
       <img v-else=""
         v-bind:src="src='statics/default_photo.png'">
@@ -38,11 +38,10 @@
       </q-card-title>
     </q-card-media>
     <q-card-separator />
-    <!-- <q-card-main> -->
     <q-list>
       <q-collapsible icon="location_on" :label="item.location">
-        <div v-if="item.sublocation">
-          {{ item.sublocation }}
+        <div v-if="item.sub_location">
+          {{ item.sub_location }}
         </div>
         <div v-else>
           No tiene ubicación exacta
@@ -61,7 +60,6 @@
         </div>
       </q-collapsible>
     </q-list>
-    <!-- </q-card-main> -->
     <q-card-separator />
     <q-card-actions>
       <q-btn flat>Action 1</q-btn>

@@ -6,12 +6,4 @@ export default {
     description: '',
     location: ''
   }
-  //   name: '',
-  //   description: '',
-  //   category: '',
-  //   location: '',
-  //   subLocation: '',
-  //   tag: '',
-  //   userId: 1
-  // }
 }
