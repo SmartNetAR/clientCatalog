@@ -34,16 +34,8 @@
       icon="done"
       color="primary"
       style="margin: 20px 18px 18px 0"
-      @click="sendObject"
+      @click="addObject"
       >Agregar
-    </q-btn>
-    </div>
-    <div row justify-center>
-    <q-btn
-      color="primary"
-      style="margin: 20px 18px 18px 0"
-      @click="uploadFile"
-      >Upload Img
     </q-btn>
     </div>
   </div>
@@ -118,38 +110,12 @@ export default {
     duplicate (label) {
       this.$q.notify(`"${label}" already in list`)
     },
-    sendObject () {
+    addObject () {
       const response = this.$store.dispatch('newObject', this.newObject)
       console.log(response)
-    },
-    uploadFile () {
-      this.$store.dispatch('uploadImage', 'hello')
+      this.$router.push('ObjectImage')
+      // http://localhost:8080/objectimage
     }
-    // uploadFile: function (file, updateProgress) {
-    //   const postUrl = 'http://localhost:8000/api/objects'
-    //   this.loading = true
-    //   let files = this.$refs.files.files.concat(file)
-    //   let formData = new FormData()
-    //   for (var i = 0; i < files.length - 1; i++) {
-    //     let file = files[i]
-    //     formData.append('files[' + i + ']', file)
-    //   }
-    //   formData.append('caption', this.caption)
-    //   this.$axios.post(postUrl, formData, { processData: false, contentType: false })
-    //     .then((response) => {
-    //       this.loading = false
-    //       if (response.data.error) {
-    //         this.$q.notify({
-    //           message: response.data.message,
-    //           type: 'negative',
-    //           color: 'negative',
-    //           icon: 'fas fa-exclamation-triangle'
-    //         })
-    //       }
-    //     }, (response) => {
-    //       this.loading = false
-    //     })
-    // }
   }
 }
 </script>
